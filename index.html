@@ -257,12 +257,16 @@ e a evolução do Sistema Solar, além de contribuir para a busca por ambientes 
 
   botões.forEach(
     function (botão) {
+      let curtiu = false;
       botão.addEventListener("click", botãoClicado);
 
       function botãoClicado() {
         console.log(" botão clicado");
         let texto = botão.querySelector("span");
-        texto.textContent++;
+        if (curtiu === false){
+          texto.textContent++;
+          curtiu = true;
+        }
       }
     }
   )
