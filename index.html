@@ -195,13 +195,21 @@ Os planetas são fundamentais para o estudo da Astronomia,
 </main>
 </body>
 <script>
-  const botão = document.querySelectorAll("button");
-  botão.addEventListener("click", botãoClicado);
+  const botões = document.querySelectorAll("button");
 
-  function botãoClicado() {
-    console.log(" botão clicado");
-    let texto = botão.querySelectorAll("span");
-    texto.textContent++;
+  botões.forEach(
+    function (botão)
+    {
+      botão.addEventListener("click", botãoClicado);
+    
+    function botãoClicado() {
+      console.log(" botão clicado");
+      let texto = botão.querySelectorAll("span");
+      texto.textContent++;
+    }
+  }
+  )
+
 
   }
 </script>
