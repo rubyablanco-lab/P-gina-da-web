@@ -1,214 +1,231 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astronomia</title>
-    <style>
-        header{
-            background-color:rgb(47, 77, 133);
-            color: aquamarine;
-            text-align: justify;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px; }
-        
-            
-            
-        main{
-            background-color: rgb(162, 135, 236);
-            color:#000000 ;
-            text-align: center;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astronomia</title>
+  <style>
+    header {
+      background-color: rgb(47, 77, 133);
+      color: aquamarine;
+      text-align: justify;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-        }
-       img  {
-        width: 900px;
-        height: 300px;
-       }
-       p{
-        font-weight:bold;
-       }
-    </style>
+
+
+    main {
+      background-color: rgb(162, 135, 236);
+      color: #000000;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+
+    }
+
+    img {
+      width: 900px;
+      height: 300px;
+    }
+
+    p {
+      font-weight: bold;
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <h1>Os Segredos dos Cosmos</h1>
-<p>Entenderemos os principais conceitos da astronomia e sua importância para a humanidade.</p>
-</header>
-    
-<main>
-    <img src="data:image/jpeg;base64,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" alt="Céu numa noite iluminada, mostrando as estrelas e constelações">
-      <h2>Explorando o Universo da Astronomia</h2>
-      <p>Por: Rubya Christiny Blanco</p>
-      <p>Podemos perceber que o estudo da astronomia permite 
-        compreender os movimentos dos astros, a formação dos sistemas planetários
-        e a evolução do universo ao longo do tempo, logo, iremos 
-        conhecer mais sobre este infinito ao nosso redor.</p>
+  <header>
+    <h1>Os Segredos dos Cosmos</h1>
+    <p>Entenderemos os principais conceitos da astronomia e sua importância para a humanidade.</p>
+  </header>
+
+  <main>
+    <img
+      src="data:image/jpeg;base64,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"
+      alt="Céu numa noite iluminada, mostrando as estrelas e constelações">
+    <h2>Explorando o Universo da Astronomia</h2>
+    <p>Por: Rubya Christiny Blanco</p>
+    <p>Podemos perceber que o estudo da astronomia permite
+      compreender os movimentos dos astros, a formação dos sistemas planetários
+      e a evolução do universo ao longo do tempo, logo, iremos
+      conhecer mais sobre este infinito ao nosso redor.</p>
 
 
 
-        <h2>O que é Astronomia?</h2>
-        <p>
-            A astronomia é a ciência que estuda os corpos celestes, como estrelas, planetas, luas, cometas, asteroides,
- galáxias e outros objetos do universo. Ela também busca compreender a origem, a evolução e o funcionamento
-  do universo por meio da observação e da aplicação de conhecimentos de física, matemática e química.
-A astronomia é dividida em diferentes áreas de estudo, entre as principais estão:
-<ul>
-<li>Astronomia Observacional: dedica-se à observação dos astros com telescópios e outros instrumentos.</li><!--Em todas as partes em que aparece a tag 'li' são uma marcação de pontos-->
-<li>Astrofísica: estuda as propriedades físicas dos corpos
- celestes e os fenômenos que ocorrem no universo.</li>
-<li>Cosmologia: investiga a origem, a estrutura, a evolução e o futuro do universo.
-Planetologia: analisa os planetas, suas luas e outros corpos do Sistema Solar
-e de outros sistemas planetários.</li>
-</ul><!--Lista de itens de Astronomia em resumo-->
-A astronomia é uma das ciências mais antigas e importantes da humanidade. Seu estudo amplia
- o conhecimento sobre o universo, contribui para avanços científicos e tecnológicos e ajuda a compreender
-  melhor o lugar da Terra no cosmos. Além disso, desperta a curiosidade e incentiva a exploração espacial 
-  e a busca por novos conhecimentos.</p>
-   <button>❤️ <span>0</span></button>
-  <img src="https://starwalk.space/gallery/images/zodiac-constellations/pt/1920x1080.jpg" alt="Contelações do Universo que podemos ver a olho nu, com nomes e marcações">
-        <h3>Constelações</h3>
-        <p>Constelações são agrupamentos aparentes de estrelas que,
-         vistas da Terra, formam figuras imaginarias no céu. 
-         Embora as estrelas de uma constelação geralmente estejam muito distantes
-          umas das outras, elas parecem próximas quando observadas do nosso planeta.
-           Atualmente, a União Astronômica Internacional reconhece
-            oficialmente 88 constelações, que dividem todo o céu em regiões específicas.
+    <h2>O que é Astronomia?</h2>
+    <p>
+      A astronomia é a ciência que estuda os corpos celestes, como estrelas, planetas, luas, cometas, asteroides,
+      galáxias e outros objetos do universo. Ela também busca compreender a origem, a evolução e o funcionamento
+      do universo por meio da observação e da aplicação de conhecimentos de física, matemática e química.
+      A astronomia é dividida em diferentes áreas de estudo, entre as principais estão:
+    <ul>
+      <li>Astronomia Observacional: dedica-se à observação dos astros com telescópios e outros instrumentos.</li>
+      <!--Em todas as partes em que aparece a tag 'li' são uma marcação de pontos-->
+      <li>Astrofísica: estuda as propriedades físicas dos corpos
+        celestes e os fenômenos que ocorrem no universo.</li>
+      <li>Cosmologia: investiga a origem, a estrutura, a evolução e o futuro do universo.
+        Planetologia: analisa os planetas, suas luas e outros corpos do Sistema Solar
+        e de outros sistemas planetários.</li>
+    </ul><!--Lista de itens de Astronomia em resumo-->
+    A astronomia é uma das ciências mais antigas e importantes da humanidade. Seu estudo amplia
+    o conhecimento sobre o universo, contribui para avanços científicos e tecnológicos e ajuda a compreender
+    melhor o lugar da Terra no cosmos. Além disso, desperta a curiosidade e incentiva a exploração espacial
+    e a busca por novos conhecimentos.</p>
+    <button>❤️ <span>0</span></button>
+    <img src="https://starwalk.space/gallery/images/zodiac-constellations/pt/1920x1080.jpg"
+      alt="Contelações do Universo que podemos ver a olho nu, com nomes e marcações">
+    <h3>Constelações</h3>
+    <p>Constelações são agrupamentos aparentes de estrelas que,
+      vistas da Terra, formam figuras imaginarias no céu.
+      Embora as estrelas de uma constelação geralmente estejam muito distantes
+      umas das outras, elas parecem próximas quando observadas do nosso planeta.
+      Atualmente, a União Astronômica Internacional reconhece
+      oficialmente 88 constelações, que dividem todo o céu em regiões específicas.
 
-Algumas das constelações mais conhecidas são:
-<ul>
- <li>Órion: uma das mais faceis de identificar, famosa pelo conjunto de três estrelas
-    conhecido como "As Três Marias".</li> 
-    <li>Ursa Maior: conhecida por conter o asterismo chamado "Grande Carro",
-    muito usado para localizar outras estrelas.</li>
-    <li>Ursa Menor: abriga a Estrela Polar, importante referência para orientação no hemisfério norte.</li>
-   <li> Cruzeiro do Sul: simbolo do hemisfério sul e utilizada para encontrar o polo sul celeste.</li>
-    <li>Escorpião: destaca-se por sua forma semelhante a de um escorpião e pela estrela brilhante Antares.</li>
-    <li>Leão: representa um leão e e uma das constelações do zodíaco.</li>
-</ul><!--Lista de itens de principais de Constelações-->
+      Algumas das constelações mais conhecidas são:
+    <ul>
+      <li>Órion: uma das mais faceis de identificar, famosa pelo conjunto de três estrelas
+        conhecido como "As Três Marias".</li>
+      <li>Ursa Maior: conhecida por conter o asterismo chamado "Grande Carro",
+        muito usado para localizar outras estrelas.</li>
+      <li>Ursa Menor: abriga a Estrela Polar, importante referência para orientação no hemisfério norte.</li>
+      <li> Cruzeiro do Sul: simbolo do hemisfério sul e utilizada para encontrar o polo sul celeste.</li>
+      <li>Escorpião: destaca-se por sua forma semelhante a de um escorpião e pela estrela brilhante Antares.</li>
+      <li>Leão: representa um leão e e uma das constelações do zodíaco.</li>
+    </ul><!--Lista de itens de principais de Constelações-->
 
-As constelações são importantes tanto para a astronomia quanto para a história da humanidade.
- Desde a antiguidade, elas auxiliam na orientação, na navegação e na observação do céu,
-  além de fazerem parte de diversas culturas e mitologias. Hoje, continuam sendo fundamentais
-   para identificar e localizar objetos celestes e compreender melhor o universo.</p>
-      <button>❤️ <span>0</span></button>
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM_LxAGab8-u_Bm8EgPvTbz9kTtuJDylVuLZLiNToQcQ&s=10" alt="Uma galáxia vista por um telescópio com cores chamativas">
-   <h3>Galáxias</h3>
-   <p>
-    Galáxias são enormes conjuntos de estrelas, planetas, gases, poeira cósmica e matéria escura,
- mantidos unidos pela força da gravidade. Elas podem conter de milhões a trilhões de estrelas
-  e apresentam diferentes formas e tamanhos. A galáxia onde está localizado o Sistema Solar é a Via Láctea.
+    As constelações são importantes tanto para a astronomia quanto para a história da humanidade.
+    Desde a antiguidade, elas auxiliam na orientação, na navegação e na observação do céu,
+    além de fazerem parte de diversas culturas e mitologias. Hoje, continuam sendo fundamentais
+    para identificar e localizar objetos celestes e compreender melhor o universo.</p>
+    <button>❤️ <span>0</span></button>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM_LxAGab8-u_Bm8EgPvTbz9kTtuJDylVuLZLiNToQcQ&s=10"
+      alt="Uma galáxia vista por um telescópio com cores chamativas">
+    <h3>Galáxias</h3>
+    <p>
+      Galáxias são enormes conjuntos de estrelas, planetas, gases, poeira cósmica e matéria escura,
+      mantidos unidos pela força da gravidade. Elas podem conter de milhões a trilhões de estrelas
+      e apresentam diferentes formas e tamanhos. A galáxia onde está localizado o Sistema Solar é a Via Láctea.
 
-As galáxias são classificadas principalmente de acordo com sua forma:
-<ul>
+      As galáxias são classificadas principalmente de acordo com sua forma:
+    <ul>
 
-   <li> Galáxias espirais: possuem braços em espiral que giram em torno de um núcleo central.
-    Exemplo: a Via Láctea.</li>
-    <li>Galáxias elípticas: têm formato oval ou esférico e apresentam poucas regiões de formação de novas estrelas.</li>
-  <li>Galáxias irregulares: não possuem uma forma definida, geralmente devido à influência
-    gravitacional de outras galáxias.</li>
-   <li> Galáxias lenticulares: apresentam características intermediárias entre as galáxias espirais e as elípticas.</li>
-</ul><!--Lista de principais de galáxias-->
+      <li> Galáxias espirais: possuem braços em espiral que giram em torno de um núcleo central.
+        Exemplo: a Via Láctea.</li>
+      <li>Galáxias elípticas: têm formato oval ou esférico e apresentam poucas regiões de formação de novas estrelas.
+      </li>
+      <li>Galáxias irregulares: não possuem uma forma definida, geralmente devido à influência
+        gravitacional de outras galáxias.</li>
+      <li> Galáxias lenticulares: apresentam características intermediárias entre as galáxias espirais e as elípticas.
+      </li>
+    </ul><!--Lista de principais de galáxias-->
 
-As galáxias são estruturas fundamentais do universo, pois abrigam estrelas, sistemas planetários
- e diversos outros corpos celestes. Seu estudo ajuda os cientistas a compreender a formação,
-  a evolução e a organização do universo, além de revelar como a matéria está distribuída no espaço.</p>
-     <button>❤️ <span>0</span></button>
-  <img src="https://s2.glbimg.com/86LZgbauQZ2TpksiTR6gNGidZ68=/e.glbimg.com/og/ed/f/original/2020/09/11/jupiter_moons.jpg" alt="Uma demonstração de como são as luas de Júpiter">
-  <h3>Luas</h3>
-  <p>As luas são corpos celestes naturais que orbitam em torno de planetas ou outros corpos maiores
-     devido à força da gravidade. Elas não possuem luz própria e refletem a luz do Sol.
+    As galáxias são estruturas fundamentais do universo, pois abrigam estrelas, sistemas planetários
+    e diversos outros corpos celestes. Seu estudo ajuda os cientistas a compreender a formação,
+    a evolução e a organização do universo, além de revelar como a matéria está distribuída no espaço.</p>
+    <button>❤️ <span>0</span></button>
+    <img
+      src="https://s2.glbimg.com/86LZgbauQZ2TpksiTR6gNGidZ68=/e.glbimg.com/og/ed/f/original/2020/09/11/jupiter_moons.jpg"
+      alt="Uma demonstração de como são as luas de Júpiter">
+    <h3>Luas</h3>
+    <p>As luas são corpos celestes naturais que orbitam em torno de planetas ou outros corpos maiores
+      devido à força da gravidade. Elas não possuem luz própria e refletem a luz do Sol.
       No Sistema Solar, existem centenas de luas, com tamanhos e características muito diferentes entre si.
 
-As principais luas incluem a Lua da Terra, que influencia as marés e estabiliza a inclinação do planeta:
-<ul>
+      As principais luas incluem a Lua da Terra, que influencia as marés e estabiliza a inclinação do planeta:
+    <ul>
 
-   <li> Ganimedes: de Júpiter, a maior lua do Sistema Solar;</li>
-   <li> Titã: de Saturno, conhecida por sua atmosfera densa;</li>
-  <li>Europa: de Júpiter, que possui um oceano sob sua camada de gelo e é considerada uma
-    das maiores candidatas à existência de vida fora da Terra;</li>  
-   <li>Io: também de Júpiter, famosa por sua intensa atividade vulcânica.</li> 
-</ul>
+      <li> Ganimedes: de Júpiter, a maior lua do Sistema Solar;</li>
+      <li> Titã: de Saturno, conhecida por sua atmosfera densa;</li>
+      <li>Europa: de Júpiter, que possui um oceano sob sua camada de gelo e é considerada uma
+        das maiores candidatas à existência de vida fora da Terra;</li>
+      <li>Io: também de Júpiter, famosa por sua intensa atividade vulcânica.</li>
+    </ul>
 
-Em conclusão, as luas desempenham um papel importante na dinâmica dos sistemas planetários
- e são objetos de grande interesse para a ciência. Seu estudo ajuda a compreender melhor a formação
-  e a evolução do Sistema Solar, além de contribuir para a busca por ambientes que possam abrigar vida.</p>
-     <button>❤️ <span>0</span></button>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuOo9TVqWcpPoUuy7sy1xBH7LhVxvyQPikC46Ih2rIqQ&s=10" alt="Uma imagem de um cometa passando pelo céu numa noite estrelada">
-  <h3>Cometas</h3>
-  <p>Os cometas são corpos celestes formados principalmente por gelo,
-     poeira e rochas que orbitam o Sol. Quando se aproximam dele, o calor faz com que parte do gelo evapore,
+    Em conclusão, as luas desempenham um papel importante na dinâmica dos sistemas planetários
+    e são objetos de grande interesse para a ciência. Seu estudo ajuda a compreender melhor a formação
+    e a evolução do Sistema Solar, além de contribuir para a busca por ambientes que possam abrigar vida.</p>
+    <button>❤️ <span>0</span></button>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuOo9TVqWcpPoUuy7sy1xBH7LhVxvyQPikC46Ih2rIqQ&s=10"
+      alt="Uma imagem de um cometa passando pelo céu numa noite estrelada">
+    <h3>Cometas</h3>
+    <p>Os cometas são corpos celestes formados principalmente por gelo,
+      poeira e rochas que orbitam o Sol. Quando se aproximam dele, o calor faz com que parte do gelo evapore,
       formando uma nuvem chamada coma e uma longa cauda, que sempre aponta na direção oposta ao Sol
-       devido ao vento solar.
+      devido ao vento solar.
 
-Entre os cometas mais conhecidos estão:
-<ul>
+      Entre os cometas mais conhecidos estão:
+    <ul>
 
-  <li>O Cometa Halley, que pode ser visto da Terra aproximadamente a cada 76 anos;</li>
-  <li>O Cometa Hale-Bopp, um dos mais brilhantes do século XX;</li> 
-  <li>O Cometa Hyakutake, famoso por sua grande aproximação da Terra em 1996;</li>
-  <li>E o Cometa NEOWISE, que proporcionou um espetáculo visível a olho nu em 2020.</li>
-</ul>
+      <li>O Cometa Halley, que pode ser visto da Terra aproximadamente a cada 76 anos;</li>
+      <li>O Cometa Hale-Bopp, um dos mais brilhantes do século XX;</li>
+      <li>O Cometa Hyakutake, famoso por sua grande aproximação da Terra em 1996;</li>
+      <li>E o Cometa NEOWISE, que proporcionou um espetáculo visível a olho nu em 2020.</li>
+    </ul>
 
-Em suma, os cometas são importantes para o estudo da origem do Sistema Solar,
- pois preservam materiais muito antigos. Sua observação permite aos cientistas compreender melhor
-  como os planetas e outros corpos celestes se formaram, além de revelar informações sobre a composição
-   do espaço.</p>
-      <button>❤️ <span>0</span></button>
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhWSFkGL9rH_4CgHzLwUS2u6q6k04HFxkcCt2W7E4R9Q&s=10" alt="Imagem dos planetas do sistema solar em volta do sol">
-   <h3>Planetas</h3>
-   <p>
-Os planetas são corpos celestes que orbitam uma estrela e não possuem luz própria,
- refletindo a luz que recebem dela. No Sistema Solar, os planetas orbitam o Sol e 
- são divididos em dois grupos: os planetas rochosos (Mercúrio, Vênus, Terra e Marte) 
- e os gigantes gasosos ou de gelo (Júpiter, Saturno, Urano e Netuno).
+    Em suma, os cometas são importantes para o estudo da origem do Sistema Solar,
+    pois preservam materiais muito antigos. Sua observação permite aos cientistas compreender melhor
+    como os planetas e outros corpos celestes se formaram, além de revelar informações sobre a composição
+    do espaço.</p>
+    <button>❤️ <span>0</span></button>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhWSFkGL9rH_4CgHzLwUS2u6q6k04HFxkcCt2W7E4R9Q&s=10"
+      alt="Imagem dos planetas do sistema solar em volta do sol">
+    <h3>Planetas</h3>
+    <p>
+      Os planetas são corpos celestes que orbitam uma estrela e não possuem luz própria,
+      refletindo a luz que recebem dela. No Sistema Solar, os planetas orbitam o Sol e
+      são divididos em dois grupos: os planetas rochosos (Mercúrio, Vênus, Terra e Marte)
+      e os gigantes gasosos ou de gelo (Júpiter, Saturno, Urano e Netuno).
 
-Os principais planetas do Sistema Solar são:
-<ul>
+      Os principais planetas do Sistema Solar são:
+    <ul>
 
-  <li> Mercúrio, o mais próximo do Sol;</li> 
-   <li>Vênus, conhecido por sua atmosfera muito quente;</li> 
-   <li>Terra, o único planeta conhecido por abrigar vida;</li> 
-   <li>Marte, chamado de Planeta Vermelho;</li> 
-   <li>Júpiter, o maior planeta do Sistema Solar;</li>  
-    <li>Saturno, famoso por seus anéis;</li> 
-  <li> Urano, que possui uma inclinação incomum;</li>  
-  <li>Netuno, o planeta mais distante do Sol.</li>  
-</ul>
+      <li> Mercúrio, o mais próximo do Sol;</li>
+      <li>Vênus, conhecido por sua atmosfera muito quente;</li>
+      <li>Terra, o único planeta conhecido por abrigar vida;</li>
+      <li>Marte, chamado de Planeta Vermelho;</li>
+      <li>Júpiter, o maior planeta do Sistema Solar;</li>
+      <li>Saturno, famoso por seus anéis;</li>
+      <li> Urano, que possui uma inclinação incomum;</li>
+      <li>Netuno, o planeta mais distante do Sol.</li>
+    </ul>
 
-Os planetas são fundamentais para o estudo da Astronomia,
- pois ajudam a compreender a formação e a evolução do Sistema Solar
- . Cada planeta possui características únicas, tornando seu estudo importante
-  para ampliar o conhecimento sobre o universo e a busca por vida além da Terra.
-</p>
-<h3> Conclusão </h3>
-<p> A astrologia é um convite para olhar para si mesmo com mais curiosidade e reflexão.
-   Independentemente das crenças de cada pessoa, ela pode servir como uma ferramenta para explorar
-    a personalidade, os sentimentos e as diferentes formas de enxergar a vida. Conhecer esse universo
-     é abrir espaço para novas perspectivas e descobrir, quem sabe, um interesse que pode surpreender você.
-</p>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YQipcCANo46Y4MGGufJOGcbUK6u2GSqNXb7Wp59gIA&s=10" alt="imagem feita por Ia para a conclusão do site">
-    <button>❤️ <span>0</span></button>   
-</main>
+    Os planetas são fundamentais para o estudo da Astronomia,
+    pois ajudam a compreender a formação e a evolução do Sistema Solar
+    . Cada planeta possui características únicas, tornando seu estudo importante
+    para ampliar o conhecimento sobre o universo e a busca por vida além da Terra.
+    </p>
+    <h3> Conclusão </h3>
+    <p> A astrologia é um convite para olhar para si mesmo com mais curiosidade e reflexão.
+      Independentemente das crenças de cada pessoa, ela pode servir como uma ferramenta para explorar
+      a personalidade, os sentimentos e as diferentes formas de enxergar a vida. Conhecer esse universo
+      é abrir espaço para novas perspectivas e descobrir, quem sabe, um interesse que pode surpreender você.
+    </p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YQipcCANo46Y4MGGufJOGcbUK6u2GSqNXb7Wp59gIA&s=10"
+      alt="imagem feita por Ia para a conclusão do site">
+    <button>❤️ <span>0</span></button>
+  </main>
 </body>
 <script>
   const botões = document.querySelectorAll("button");
 
   botões.forEach(
-    function (botão)
-    {
+    function (botão) {
       botão.addEventListener("click", botãoClicado);
-    
-    function botãoClicado() {
-      console.log(" botão clicado");
-      let texto = botão.querySelectorAll("span");
-      texto.textContent++;
+
+      function botãoClicado() {
+        console.log(" botão clicado");
+        let texto = botão.querySelectorAll("span");
+        texto.textContent++;
+      }
     }
-  }
   )
 
 </script>
+
 </html>
