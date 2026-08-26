@@ -18,11 +18,17 @@ header {
      text-align: center;
      margin: 0 auto;
      padding: 20px;
-
+     display: flex;
  }
 
  article {
      display: flex;
+
+     border: 1px solid #000000;
+
+     margin: 16px;
+     gap: 16px;
+     padding: 16px;
  }
 
  img {
