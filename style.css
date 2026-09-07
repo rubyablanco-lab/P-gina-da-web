@@ -6,7 +6,7 @@
     --cor-borda:#000000;
     --cor-contraste:rgb(188, 253, 232);
 
-    --fonte-texto:
+    --fonte-texto:'Trebuchet MS', 'Lucida Sans Unicode';
 }
 .tema-escuro {
     --primeira-cor: rgb(151, 182, 240);
