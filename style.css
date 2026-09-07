@@ -1,10 +1,27 @@
+:root{
+    --primeira-cor: rgb(47, 77, 133);
+    --segunda-cor:  rgb(162, 135, 236);  
+    --cor-letra-central: aquamarine;
+    --cor-letra:#000000;
+    --cor-borda:#000000;
+    --cor-contraste:rgb(188, 253, 232);
+}
+.tema-escuro {
+    --primeira-cor: rgb(151, 182, 240);
+    --segunda-cor:  rgb(54, 35, 105);  
+    --cor-letra-central: rgb(60, 121, 101);
+    --cor-letra:#ffffff;
+    --cor-borda:#ffffff;
+    --cor-contraste:rgb(68, 90, 83);
+}
+
 body{
     max-width: 100vw;
 }
 
 header {
-     background-color: rgb(47, 77, 133);
-     color: aquamarine;
+     background-color: var(--primeira-cor);
+     color:  var(--cor-letra-central);
      text-align: justify;
      margin: 0 auto;
      padding: 20px;
@@ -13,8 +30,8 @@ header {
 
 
  main {
-     background-color: rgb(162, 135, 236);
-     color: #000000;
+     background-color: var(--segunda-cor);
+     color: var(--cor-letra);
      text-align: center;
      margin: 0 auto;
      padding: 20px;
@@ -26,7 +43,7 @@ header {
  article {
      display: flex;
 
-     border: 1px solid #000000;
+     border: 1px solid var(--cor-borda);
 
      margin: 16px;
      gap: 16px;
