@@ -5,6 +5,8 @@
     --cor-letra:#000000;
     --cor-borda:#000000;
     --cor-contraste:rgb(188, 253, 232);
+
+    --fonte-texto:
 }
 .tema-escuro {
     --primeira-cor: rgb(151, 182, 240);
@@ -15,11 +17,18 @@
     --cor-contraste:rgb(68, 90, 83);
 }
 .tema-escuro a {
-    color: var(--segunda-cor)
+    color: var(--segunda-cor);
+}
+.tema-escuro p {
+    color: var(--cor-letra);
+}
+.tema-escuro header p{
+    color: var(--cor-contraste);
 }
 
 body{
     max-width: 100vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode' ;
 }
 
 header {
