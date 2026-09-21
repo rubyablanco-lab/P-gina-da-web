@@ -5,9 +5,15 @@
     --cor-letra:#000000;
     --cor-borda:#000000;
     --cor-contraste:rgb(188, 253, 232);
+    --cor-botao: #364e81;
 
     --fonte-texto:'Trebuchet MS', 'Lucida Sans Unicode';
 }
+
+* {
+    transition: background-color 0.3s ease;
+}
+
 .tema-escuro {
     --primeira-cor: rgb(151, 182, 240);
     --segunda-cor:  rgb(54, 35, 105);  
@@ -15,25 +21,46 @@
     --cor-letra:#ffffff;
     --cor-borda:#ffffff;
     --cor-contraste:rgb(68, 90, 83);
-}
+    --cor-botao: #6291f7;
+    }
+
+    .tema-escuro p {
+        color: var(--cor-letra);
+    }
+    .tema-escuro header p {
+        color: var(--cor-contraste);
+        font-weight: 600;
+    }
 .tema-escuro a {
+color: var(--segunda-cor);
+}
+.tema-escuro button {
+border: none;
+background-color: var(--cor-botao);
+color: var(--cor-letra);
+}
+.tema-escuro article {
+    background-color:  rgb(54, 35, 105); ;
+}
+.tema-escuro h2{
+    color: var(--primeira-cor);
+}
+.tema-escuro .artigo-autor {
     color: var(--segunda-cor);
 }
-.tema-escuro p {
-    color: var(--cor-letra);
+.tema-escuro .btn-tema-escuro {
+    background-color: var(--segunda-cor);
 }
-.tema-escuro header p{
-    color: var(--cor-contraste);
-}
+
 
 body{
     max-width: 100vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode' ;
+    font-family: var(--fonte-texto);
 }
 
 header {
      background-color: var(--primeira-cor);
-     color:  var(--cor-letra-central);
+     color:  var(--cor-contraste);
      text-align: justify;
      margin: 0 auto;
      padding: 20px;
