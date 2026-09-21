@@ -78,3 +78,13 @@ header {
  p {
      font-weight: bold;
  }
+
+ .btn-tema-escuro{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 30px;
+    padding: 12px;
+    background-color: var(--primeira-cor);
+    border-radius: 50%;
+ }
